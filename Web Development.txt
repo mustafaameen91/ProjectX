@@ -509,7 +509,30 @@ Events
 	example: window.ondbclick = function(){}
 4- onchange | 
 	example: window.onchange = function(){}
-	___________________________________________________________________________________________________________________________
+	
+=========================================================================================================================================================
+Array 
+Create Array 
+1- var varname = new Array(); // not recommend to use this way
+	varname[0] = value;
+	OR
+   var varname = new Array(value1,value2...);
+2- var varName = [value1 , value2 , value3 ...]; // recommanded to use this one
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Array Methods 
+1- check if the variable is array or not we use the method isArray Example:				// recommanded
+	if (Array.isArray(varName)){
+		//do Something
+	}
+>>||> there is another way 
+	if (varName.constructor === Array){
+		//do Something
+	}
+
+2- Array length to get the length of an array mean how many element in the array 
+	arrayName.length
+3- 
+___________________________________________________________________________________________________________________________
 Case Sensitave
 حساسه للحروف
 
