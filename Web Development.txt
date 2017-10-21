@@ -531,8 +531,34 @@ Array Methods
 
 2- Array length to get the length of an array mean how many element in the array 
 	arrayName.length
-3- 
+3- convert the array to string we use (toString)  method
+arrayName = arrayName.toString();
+
+4- convert the array to string we use (toLocaleString) not so defferint from the toString 
+arrayName = arrayName.toLocaleString();
+
+5- join the element in the array
+arrayName = arrayName.join();
+convert the array to string but we can adjust the (coma , ) betwen them 
+arrayName = arrayName.join("-");
+
+6- to add item into array we use this idea (osama al zero (29))
+
+arrayName[arrayName.length] = value;
+
+7- push : to add item in array but it will add the item as last one
+arrayName = arrayName.push(value);
+
+8- 	unshift : to add item in array but it will add the item as first one
+arrayName = arrayName.unshift(value);
+
+9- to add item adn remove we can use the splice method  (osama al zero (29))
+arrayName = arrayName.splice(index , how many item to remove,value1 , value2 , value3);
+
+
 ___________________________________________________________________________________________________________________________
+From verious Tetourals
+===========================================================================================================================
 Case Sensitave
 حساسه للحروف
 
