@@ -580,7 +580,31 @@ var newArrayName = arrayName.slice(-1,-5);
 15- to combine two or more array we use concat method
 var newArrayName = firstArrayName.concat(secondArrayName , thirdArrayName);
 
+16- to get the number of element in the array we can use indexOf (osame al zero (33))
+var varName = arrayName.indexOf(value , starting index(if needed));
+_________________________________________________________________________________________________
+<||>>>> if you search for element and it dosn't  exist the javaScript will return -1 			|
+-------------------------------------------------------------------------------------------------
+17- to get the number of element in the array reversed way we can use lastIndexOf (osame al zero (33))
+var varName = arrayName.lastIndexOf(value , starting index(if needed));
 
+
+==========================>>>>>>>>>>>>>> Method of String =================================================
+
+1- typeof() to know what is the type of the variable data 
+
+typeof(varName);
+
+2- to convert the variable to string we use toString method
+var varName = varName2.toString();
+
+3-  to get the number of element in the String we can use indexOf
+var varName = stringName.indexOf(value , starting index(if needed)); 
+
+4-  to get the number of element in the string we can use indexOf 
+var varName = StringName.lastIndexOf(value , starting index(if needed));
+
+5- 
 
 ___________________________________________________________________________________________________________________________
 From verious Tetourals
