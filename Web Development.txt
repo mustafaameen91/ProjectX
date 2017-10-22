@@ -552,8 +552,34 @@ arrayName = arrayName.push(value);
 8- 	unshift : to add item in array but it will add the item as first one
 arrayName = arrayName.unshift(value);
 
-9- to add item adn remove we can use the splice method  (osama al zero (29))
+9- to add item and remove we can use the splice method  (osama al zero (29))
 arrayName = arrayName.splice(index , how many item to remove,value1 , value2 , value3);
+
+10- to remove the last item from array we use the pop
+arrayName = arrayName.pop();
+
+<>>> to save the item that removed we stored into variable :
+var lastItem = arrayName.pop();
+
+11- to remove the first element in the array we can use shift
+arrayName = arrayName.shift();
+
+12- to sort the array be alpha-beta we use the method sort
+arrayName = arrayName.sort();
+
+13- to sort the array by revers way we use th reverse method
+arrayName = arrayName.reverse();
+
+14- to take a part of array we use the slice method
+var newArrayName = arrayName.slice(start element , end element);
+Example
+var newArrayName = arrayName.slice(3,8);
+if we want to take the element form bottom or reversed way we use negitav value
+var newArrayName = arrayName.slice(-1,-5);
+
+15- to combine two or more array we use concat method
+var newArrayName = firstArrayName.concat(secondArrayName , thirdArrayName);
+
 
 
 ___________________________________________________________________________________________________________________________
