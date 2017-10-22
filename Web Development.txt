@@ -604,7 +604,44 @@ var varName = stringName.indexOf(value , starting index(if needed));
 4-  to get the number of element in the string we can use indexOf 
 var varName = StringName.lastIndexOf(value , starting index(if needed));
 
-5- 
+5- to search for word in string we use search method
+varName = stringName.search(value); <>>> recommanded to use regular Exsprision in search
+
+6- split : to split the string into small word or any thing we want (osama al zero (37))
+   split : change the string to array and the split btewen them we define it when we split Example:
+varName = stringName.split(" "); <>>> here we chose spease so it will split any word between spease if i say "i love you " ; it will split ["i","love","you"];
+
+7- slice : to take a part of the string 
+var varName = varName2.slice(start , end);
+
+8- substr : to take a part of string the diffrent between slice and substr is thet the substr take length 
+var varName = varName2.substr(start , length of the string);
+
+9-  substring : to take a part of the string  the diffrent between slice and substring is if the start point bigger than end point it will swap between them 
+var varName = varName2.substring(start , end);
+
+10- charAt : to get a charcter in the string 
+var varName = varName2.charAt(index number);
+
+11- charCodeAt : to get the unicode of a charecter 
+var varName = varName2.charCodeAt(index number);
+
+12- to replace word to another we use replace method
+var varName = varName2.replace(value  , new value);
+
+13- to write string in unicode we use 
+var varName = String.fromCharCode(unicode1,unicode2,unicode3....);
+
+14- concat to combine more than 1 string
+var varName = varName1.concat(varName2);
+
+15- to lower case all the string
+var varName = varName.toLowerCase();
+
+16- to upper case all the string
+var varName = varName.toUpperCase();
+
+
 
 ___________________________________________________________________________________________________________________________
 From verious Tetourals
