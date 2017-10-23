@@ -641,6 +641,136 @@ var varName = varName.toLowerCase();
 16- to upper case all the string
 var varName = varName.toUpperCase();
 
+17- to cut the spease in the start and end of string we use trim
+var varName = varName.trim();
+
+18- to link we use
+var varName = varName.link(name of website);
+__________________________________________________________________________________________________________________________
+Loop in JavaScript
+
+1- fo(var varName = value(initial valur for start loop) ; condition ; increment or disecrement ){
+		// some code
+	}
+
+2- for/in 	<>||>>>>> Important 	
+	________________________________________________________________
+ 	|to loop inside the object we use for/in (osama al zero(45))	|
+	|Example:														|
+	|var varName;													|
+	|for(varName in objectName){									|
+	|		if(objectName.hasOwnproperty(varName)){					|
+	|			console.log(varName +": "+ objectName[varName]);	|
+	|		}														|
+	|	}															|
+	|																|
+	-----------------------------------------------------------------
+
+3- while 
+
+var varName; 
+while(condition){
+	
+	varName++;
+}
+
+4- do while it will excute at lest one time
+var varName; 
+do{
+	
+	varName++;
+}while(condition);
+
+5- lable , break , contenu	(osama al zero(48))
+
+mainLoop: 	// this call lable
+for(some thing){
+	childloop:
+	for(some thing){
+		brake childloop;
+	}
+}
+
+__________________________________________________________________________________________________________________________
+Math method
+
+1- ceil 										ياخذ قيم عشرية ويعطي الرقم التقريبي ولكن ياخذ دائما الرقم الاكبر 
+
+var varName = math.ceil(4.3); 				//answer:5
+
+2- floor 										 ياخذ رقم ويعطي الرقم التقريبي ودائما يعطي الرقم الاصغر
+
+var varName = math.floor(4.3); 				//answer:4
+
+
+3- round 										 تقريبي ودائما يعطي الرقم الاصغر
+
+var varName = math.floor(4.3); 				//answer:4
+
+4- min 											ياخذ مجموعه من الارقام ويعطي اصغر رقم
+
+var varName = math.min(4,2,3,6,7,8);
+
+5- max 											ياخذ مجموعه من الارقام ويعطي اكبر رقم
+
+var varName = math.max(4,2,3,6,7,8);
+
+6- random 										يعطي رقم عشوائي من صفر الى واحد مهم جدا مثال على استخدامه
+
+var varName = math.random();
+example of use:
+var varName = math.random(math.floor( (x*10)+1 ) );
+
+________________________________________________________________________________________________________________________________
+Regular Expression 
+
+(osama al zero(55))
+
+we write the ReEx in :
+search | replace | split | test | match 
+write like /our pattren /our attribute
+( i ) for case insensetive
+( g ) for global search 
+( m ) for multi line search
+
+example :
+var str = "hello from java script",
+	result = str.replace(/L/ig,"m");
+
+Brackets use
+[..] charecter
+[^..] not charecter
+[a-z] range small char
+[A-Z] range capital char
+[0-9] rang number
+[^0-9] not rang number
+[0-9a-z] double rang
+[A-h] mean A to Z and a to h 
+
+Example:
+var str = "hello from java script",
+	result = str.replace(/[0-9a-z]/g,"m");
+	
+Quintifire
+
+letter+ => word contain one letter
+letter{number} => word contain number of letter
+letter{number,number} => word contain number of letter or number of letter
+letter{number,} => word contain at least number of letter
+
+______________________________________________________________________________________________________________________________________
+
+Date 
+
+1- var varName = new Date();			// get the current time 
+
+
+
+letter+ =>
+
+
+
+
 
 
 ___________________________________________________________________________________________________________________________
