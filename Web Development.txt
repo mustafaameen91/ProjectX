@@ -721,6 +721,12 @@ var varName = math.random();
 example of use:
 var varName = math.random(math.floor( (x*10)+1 ) );
 
+7- to convert any string to number it must the number before the string
+parseInt(value)
+example:
+parseInt("20px") // return 20
+
+
 ________________________________________________________________________________________________________________________________
 Regular Expression 
 
@@ -764,9 +770,94 @@ Date
 
 1- var varName = new Date();			// get the current time 
 
+2-  var theDate = new Date();
+	var theMDate = theDate.getDate() 			// get the day of the month 1-31
+
+3-  var theDate = new Date();
+	var theMDate = theDate.getDay() 			// get the day of the week 0-6
+
+4-  var theDate = new Date();
+	var theMDate = theDate.getFullYear() 			// get the Full year
+
+5-  var theDate = new Date();
+	var theMDate = theDate.getHours() 			// get the hours 0-23
+	
+6-  var theDate = new Date();
+	var theMDate = theDate.getMinutes() 			// get the minutes 0-59
+	
+7-  var theDate = new Date();
+	var theMDate = theDate.getSecond() 			// get the second 0-59
+
+8-  var theDate = new Date();
+	var theMDate = theDate.getMillisecond() 			// get the millisecond 0-999
+	
+9-  var theDate = new Date();
+	var theMDate = theDate.getTime() 			// get the number of millisecond from 1970 until now
+	
+10-  var theDate = new Date();
+	var theMDate = theDate.getTimezoneOffset() 			// get the diffrent between UTC and LocalTime
+	
+11-  var theDate = new Date();
+		var theMDate = theDate.setDate(day[require])
+
+ var theDate = new Date();
+	var theMDate = theDate.setFullYear(year[require],month[optional],day[optional])
+
+ var theDate = new Date();
+	var theMDate = theDate.setHours(hours[require])
+
+ var theDate = new Date();
+	var theMDate = theDate.setMinutes(minutes[require])
+
+ var theDate = new Date();
+	var theMDate = theDate.setSecond(second[require])
+
+ var theDate = new Date();
+	var theMDate = theDate.setMillisecond(Millisecond[require])
+
+ var theDate = new Date();
+	var theMDate = theDate.setMonth(month[require],day[optional])
+	
+ var theDate = new Date();
+	var theMDate = theDate.toISOString()  // convert the date to iso look
+
+ var theDate = new Date();
+	var theMDate = theDate.toDateString()  // convert the date  to string 
+
+ var theDate = new Date();
+	var theMDate = theDate.toTimeString()  // convert the date to time only
+	
+=============================================================================================================================================
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DOM (Document Object Model)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+1- document.getElementById('id name')  // تجلب العنصر الذي له ايدي كذا 
 
 
-letter+ =>
+1- document.getElementsByTagName('tag name')  // ترجع مصفوفه بالعناصر التي لها هذا التاغ
+
+
+1- document.getElementsByClassName('class name')  //  مصفوفه بالعناصر التي لها هذا الكلاس وغير مدعمة بالانترنيت اكسبلورر
+
+
+1- document.querySelectorAll('class name or tag or both')  //  مصفوفه بالعناصر التي لها هذا التاغ او الكلاس وغير مدعمة بالانترنيت اكسبلورر
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+	
 
 
 
