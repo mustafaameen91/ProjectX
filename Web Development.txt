@@ -429,10 +429,8 @@ animation: name | duration | timing function | delay | iteration | direction | f
 
 *******************************************************************************************************************************************************
 JAVA SCRIPT
-____________________________FROM OSAMA AL ZERO
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FROM OSAMA AL ZERO <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 *******************************************************************************************************************************************************
-
-______________________
 
 var (x)name = (3)value;
 
@@ -833,14 +831,73 @@ Date
 1- document.getElementById('id name')  // تجلب العنصر الذي له ايدي كذا 
 
 
-1- document.getElementsByTagName('tag name')  // ترجع مصفوفه بالعناصر التي لها هذا التاغ
+2- document.getElementsByTagName('tag name')  // ترجع مصفوفه بالعناصر التي لها هذا التاغ
 
 
-1- document.getElementsByClassName('class name')  //  مصفوفه بالعناصر التي لها هذا الكلاس وغير مدعمة بالانترنيت اكسبلورر
+3- document.getElementsByClassName('class name')  //  مصفوفه بالعناصر التي لها هذا الكلاس وغير مدعمة بالانترنيت اكسبلورر
 
 
-1- document.querySelectorAll('class name or tag or both')  //  مصفوفه بالعناصر التي لها هذا التاغ او الكلاس وغير مدعمة بالانترنيت اكسبلورر
+4- document.querySelectorAll('class name or tag or both')  //  مصفوفه بالعناصر التي لها هذا التاغ او الكلاس وغير مدعمة بالانترنيت اكسبلورر
 
+5- document.title		// get the title of the page
+
+6- document.images		// get array of all images in the page
+
+7- document.forms		// get array of all forms in the page
+
+8- document.body		// get the content of the body
+
+9- document.anchors		// get array of all the <a tag without the href > in the page
+
+10- document.links		// get array of all <a tag with href > in the page
+
+11- >innerText // not standard not recommanded
+
+	>outerText // not standard not recommanded
+	
+	>innerHTML
+	//get html content
+	element.innerHTML
+	
+	>outerHTML
+	
+	>textContent
+	//get the text content 
+	element.textContent
+	
+12- change the id attribute we use 
+	var myelement = document.querySelector('element');
+	myelement.id = 'any value';
+
+13- change the class attribute we use 
+	var myelement = document.querySelector('element');
+	myelement.className = 'any value';
+========================================================|
+14- change any element attribute we use 				|
+	var myelement = document.querySelector('element');	|
+	myelement.attribute = 'any value';					|
+========================================================|	
+
+
+15- another way to change the attribute and get it by 
+	
+	Element.getAttribute('name of att')
+	Element.setAttribute('name of attribute' , ' the value of attribute')
+<>>> if the attribute dosn't exist the javascript will create it then but the value in it
+
+16- Element.hasAttribute('name of att')				// return true or false
+	Element.removeAttribute('name of attribute')			// remove existing attribute
+	
+
+17- 	Element.classLisst			// return array for list of the classes
+		Element.classLisst.contains('name of class') 		// return true or false it will check if the element have the class name or not
+		Element.classLisst.item(index of class)				// return spesific class by it own index 
+
+
+
+	
+
+	
 
 
 
