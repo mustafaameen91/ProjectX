@@ -644,6 +644,11 @@ var varName = varName.trim();
 
 18- to link we use
 var varName = varName.link(name of website);
+
+19- convert the string into number we use
+		var myString = '123';
+		var myNum = Number(myString);
+		typeof myNum;
 __________________________________________________________________________________________________________________________
 Loop in JavaScript
 
